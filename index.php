@@ -69,7 +69,15 @@
             <div class="zones formulaire">
                 <div class="form">
                     <form action="" method="post">
-                        <input type="text" name="class" id="" placeholder="Your class">
+                        <select name="class" id="">
+                            <option value="">B3 Création Numérique</option>
+                            <option value="">B3 Cybersécurité et Administrateur Réseaux</option>
+                            <option value="">B3 Developpeur Web</option>
+                            <option value="">B3 Digital</option>
+                            <option value="">B3 E-commerce</option>
+                            <option value="">B3 WebDesign</option>
+                            <option value="">B3 WebMarking </option>
+                        </select>
                         <textarea name="message" id="" placeholder="Your opinion"></textarea>
                         <input type="submit" value="Send you opinion">
                     </form>
